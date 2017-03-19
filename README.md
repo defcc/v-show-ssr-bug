@@ -46,5 +46,3 @@ renderToString(vm, (err, res) => {
 })
 
 ```
-
-The 
