@@ -4,11 +4,7 @@ var renderToString = createRenderer().renderToString
 
 const vm = new Vue({
   template: `
-    <foo v-show="false">
-      <div>
-        <bar class="test" v-show="true"></bar>
-      </div>
-    </foo>
+    <foo v-show="false"></foo>
   `,
   components: {
     foo: {
